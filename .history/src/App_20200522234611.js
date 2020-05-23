@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
         <h1>my App</h1>
-        <span className="fa fa-remove"></span>
+        <span  className="fa fa-remove"></span>
     </div>
   );
 }
