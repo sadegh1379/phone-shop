@@ -1,0 +1,17 @@
+#cart-btn{
+    background: transparent !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease-in;
+    border
+}
+.image-container{
+    overflow: hidden;
+}
+
+#cart-btn:hover{
+    
+    background-color: black !important;
+}

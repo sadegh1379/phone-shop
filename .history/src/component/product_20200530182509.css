@@ -1,0 +1,7 @@
+#cart-btn{
+    background: transparent !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 2rem 0.5rem;
+}

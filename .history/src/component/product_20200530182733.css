@@ -1,0 +1,14 @@
+#cart-btn{
+    background: transparent !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1rem 2rem;
+    transform: scale(2 , 3);
+}
+.image-container
+
+#cart-btn:hover{
+    
+    background-color: black !important;
+}

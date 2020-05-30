@@ -1,0 +1,27 @@
+#cart-btn{
+    background: transparent !important;
+    position: absolute;
+    border:1px 
+    right: 0;
+    bottom: 0 !important;
+    padding: 0.8rem 2rem;
+    transition: all 0.3s ease-in;
+    border-radius: 20px 0 0 0 ;
+}
+.image-container{
+    /* position: relative;
+    overflow: hidden; */
+}
+
+
+
+.image-container:hover > #card-image {
+  transform: scale(1.2);
+  background-color: red !important;
+}
+
+#cart-btn:hover{
+    
+    box-shadow: 0.2px 5px 5px black inset;
+    color:black;
+}
