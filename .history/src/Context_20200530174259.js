@@ -39,7 +39,7 @@ const productContext = React.createContext();
         
         return (
             <productContext.Provider value={{
-                ...this.state ,
+                ...this.state
             }}>
                     {
                         this.props.children

@@ -6,7 +6,7 @@ const productContext = React.createContext();
  class ProductProvider extends Component {
      
          state ={
-             products:storeProducts ,
+             products:[...storeProducts] ,
              detail : [] ,
              cart :[]
 
@@ -39,7 +39,7 @@ const productContext = React.createContext();
         
         return (
             <productContext.Provider value={{
-                ...this.state ,
+                ...this.state 
             }}>
                     {
                         this.props.children

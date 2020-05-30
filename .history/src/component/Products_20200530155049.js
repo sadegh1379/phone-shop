@@ -10,16 +10,10 @@ export default class Products extends Component {
                 <ProductConsumer>
                     
                     {value =>{
+                        const products = value.p
                         
-                        return(
-                                value.products.map(product=>{
-                                    return(
-                                    <h3>{product.title}</h3>
-                                    )
-                                })
-                        )   
-                            }
-                    }
+                        
+                    }}
                 </ProductConsumer>
             </React.Fragment>
         )

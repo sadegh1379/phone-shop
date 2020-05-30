@@ -12,14 +12,11 @@ import styled from 'styled-components';
         
                         </li>
                     </ul>
-                    <button  className="btn btn-outline-primary px-3 text-light ">
-                        <Link to="/cartlist">
-                         <span> 
-                            <i className="fa text-light fa-shopping-cart mr-1"></i>
+                    <button className="btn btn-outline-primary px-3 text-light py-0">
+                        <span> <h5>سبد خرید</h5>
+                            <i className="fa fa-shopping-cart mr-1"></i>
                             
                         </span>
-                        </Link>
-                       
                     </button>
                     </nav>
         </React.Fragment>
