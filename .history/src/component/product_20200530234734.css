@@ -19,7 +19,7 @@
 }
 
 .card-hover:hover{
-   box-shadow: 0.1px  0.1px 3px  rgb(46, 54, 196) inset;
+   box-shadow: 1px  1px 5px  black inset;
 }
 
 #image-card{
@@ -29,7 +29,7 @@
 
 #cart-btn:hover{
     
-    box-shadow: 0.2px 5px 5px black inset;
+    box-shadow: 0.1px 5px 5px black inset;
     color:black;
 }
 

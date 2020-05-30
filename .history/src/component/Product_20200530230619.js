@@ -11,11 +11,11 @@ function Product(props) {
     return (
     
         <div className="col-10 col-lg-4 col-md-4  text-center justify-content-center py-3 m-3 mx-auto">
-               <div className="card card-hover py-3">
+               <div className="card cart py-3">
                     <h5 className="card-title">{title}</h5>
                     <div className="image-container">
-                        <Link to="/detail" >
-                        <img id="card-image" className="my-3" style={{width:'100px' , height:'100px'}} src={img} alt={title}
+                        <Link to="/detail">
+                        <img id="card-image" style={{width:'100px' , height:'100px'}} src={img} alt={title}
                          onClick={()=>console.log("clicked image container")}
                         />
                         </Link>

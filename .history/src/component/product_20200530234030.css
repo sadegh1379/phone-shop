@@ -10,22 +10,17 @@
     border-radius: 20px 0 0 0 ;
 }
 .image-container{
-    /* position: relative;*/
-    overflow: hidden; 
-     
+    /* position: relative;
+    overflow: hidden; */
 }
 .card-hover{
     transition: all 0.5s linear;
 }
-
 .card-hover:hover{
-   box-shadow: 0.1px  0.1px 3px  rgb(46, 54, 196) inset;
+   box-shadow: 1px  1px 5px  black inset;
 }
 
-#image-card{
-    transition: all 1s ease-in-out;    
-    
-}
+#image-card
 
 #cart-btn:hover{
     
@@ -34,6 +29,5 @@
 }
 
 #card-image:hover{
-    transition: all 0.8s linear;
-    transform: scale(1.4);
+    transform: scale(2);
 }

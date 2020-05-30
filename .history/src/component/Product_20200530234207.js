@@ -14,8 +14,8 @@ function Product(props) {
                <div className="card card-hover py-3">
                     <h5 className="card-title">{title}</h5>
                     <div className="image-container">
-                        <Link to="/detail" >
-                        <img id="card-image" className="my-3" style={{width:'100px' , height:'100px'}} src={img} alt={title}
+                        <Link to="/detail">
+                        <img id="card-image" className="p" style={{width:'100px' , height:'100px'}} src={img} alt={title}
                          onClick={()=>console.log("clicked image container")}
                         />
                         </Link>
