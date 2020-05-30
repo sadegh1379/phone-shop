@@ -1,0 +1,27 @@
+:root{
+  --myfont : 'Almarai', sans-serif ;
+  --fonta : 'Lemonada', cursive ;
+}
+
+
+.app{
+  /* font-family: 'Almarai', sans-serif; */
+  font-family: var(--myfont);
+  font-size: 10px;
+}
+
+/* .text-title{
+  text-align: center;
+  font-size: 10px;
+  font-stretch: expanded;
+} */
+
+/*
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
