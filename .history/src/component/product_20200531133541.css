@@ -1,0 +1,46 @@
+#cart-btn{
+    background: transparent !important;
+    position: absolute;
+    border:1px solid black !important;
+    font-size: 20px;
+    right: 0;
+    bottom: 0 !important;
+    padding: 0.3rem 1.5rem;
+    transition: all 0.3s ease-in;
+    border-radius: 20px 0 0 0 ;
+}
+#cart-btn p{
+    font-size: 16px;
+    ma-top: 10px;
+    color:black;
+    text-transform: initial ;
+    font-weight: 900;
+}
+.image-container{
+    /* position: relative;*/
+    overflow: hidden; 
+     
+}
+.card-hover{
+    transition: all 0.5s linear;
+}
+
+.card-hover:hover{
+   box-shadow: 0.1px  0.1px 3px  rgb(46, 54, 196) inset;
+}
+
+#image-card{
+    transition: all 1s ease-in-out;    
+    
+}
+
+#cart-btn:hover{
+    
+    box-shadow: 0.2px 5px 5px black inset;
+    color:black;
+}
+
+#card-image:hover{
+    transition: all 0.8s linear;
+    transform: scale(1.4);
+}
