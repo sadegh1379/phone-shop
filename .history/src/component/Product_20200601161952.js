@@ -11,7 +11,7 @@ function Product(props) {
     const { addToCart , handleDetail , openModal , detail } = props.value ;
     return (
     
-        <div className="col-10 col-lg-4 col-md-6  text-center justify-content-center py-3  mx-auto">
+        <div className="col-10 col-lg-4 col-md-3  text-center justify-content-center py-3  mx-auto">
                <div className="card card-hover py-3">
                     <h5 className="card-title">{title}</h5>
                     

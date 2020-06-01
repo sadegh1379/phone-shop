@@ -16,11 +16,11 @@ import { ProductConsumer } from '../../Context';
                     
                         <Link className="btn btn-outline-dark   " to="/cartlist">
                          <span className="text-white text-center"> 
-                            <span className="badge badge-dark">
+                            <span className="badge badge-rak">
                                     <ProductConsumer>
                                         {value=>{
                                             return(
-                                                value.counterCart?value.counterCart : null
+                                                value.counterCart
                                             )
                                         }
 

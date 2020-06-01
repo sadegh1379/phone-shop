@@ -8,7 +8,7 @@ const productContext = React.createContext();
          state ={
              products:[] ,
              detail : DetailProduct ,
-             cart : storeProducts ,
+             cart : [] ,
              openModal : false ,
              closeModal : false ,
              total : 0 ,
@@ -57,12 +57,6 @@ const productContext = React.createContext();
 
     }
 
-    // local Storage*****************************************
-
-    setStorage = (item)=>{
-        return localStorage.getItem(item)? JSON.parse( localStorage.getItem(item)) : []
-    }
-
     // find product********************************************
     findProduct = (id)=>{
        const product =  this.state.products.find(item => item.id === id);
@@ -88,7 +82,7 @@ const productContext = React.createContext();
             }
         })
 
-    //   console.log( this.setStorage(tempProduct));
+        localStorage.setItem('products' , )
     }
 
     handleRemoveItem = (id)=>{

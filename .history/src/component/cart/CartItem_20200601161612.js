@@ -25,11 +25,11 @@ function CartItem(props) {
                                                         </h6> 
                                                 <span className="my-1"> تعداد  
                                                 <span className="float-left">
-                                                <button className="btn btn-outline-dark">+</button>
+                                                <button className="btn btn-outline-ra">+</button>
 
-                                                <button className="btn btn-outline-dark mx-2">{count}</button>
+                                                <button className="btn btn-outline-light mx-2">{count}</button>
 
-                                                <button className="btn btn-outline-dark">-</button>                            
+                                                <button className="btn btn-outline-light">-</button>                            
                                                 </span> 
                                                 
                                                 </span>

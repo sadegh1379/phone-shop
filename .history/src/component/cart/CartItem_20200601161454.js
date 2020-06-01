@@ -14,7 +14,7 @@ function CartItem(props) {
 
                         <div className="col-lg-6 text-center mx-auto  col-md-12 py-md-4 my-xs-4">
                                 <strong className="py-md-4 py-sm-4">{title}</strong><hr className="bg-white"/>
-                                <div style={{width:'80%'}} className="card text-right card-body card-dark    my-md-4 my-sm-4 my-xs-4 mx-auto">
+                                <div className="card text-right card-body card-dark p   my-md-4 my-sm-4 my-xs-4 mx-auto">
                                 
 
                                                         <h6>
@@ -25,11 +25,11 @@ function CartItem(props) {
                                                         </h6> 
                                                 <span className="my-1"> تعداد  
                                                 <span className="float-left">
-                                                <button className="btn btn-outline-dark">+</button>
+                                                <button className="btn btn-outline-light">+</button>
 
-                                                <button className="btn btn-outline-dark mx-2">{count}</button>
+                                                <button className="btn btn-outline-light mx-2">{count}</button>
 
-                                                <button className="btn btn-outline-dark">-</button>                            
+                                                <button className="btn btn-outline-light">-</button>                            
                                                 </span> 
                                                 
                                                 </span>

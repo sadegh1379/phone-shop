@@ -29,7 +29,7 @@ function CartItem(props) {
 
                                                 <button className="btn btn-outline-dark mx-2">{count}</button>
 
-                                                <button className="btn btn-outline-dark">-</button>                            
+                                                <button className="btn btn-outline-light">-</button>                            
                                                 </span> 
                                                 
                                                 </span>

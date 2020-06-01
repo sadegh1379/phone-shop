@@ -19,7 +19,7 @@ export default class Detail extends Component {
                                                 <span className="text-muted "> قیمت : </span><span className="text-danger float-left">{price} تومان</span>
                                         </h6>
                                         <h6 className="my-3">
-                                        <span className="text-muted"> شرکت سازنده : </span><span className=" float-left h5">{company} </span>
+                                        <span className="text-muted"> شرکت سازنده : </span><span className=" float-left ">{company} </span>
                                         </h6> 
                                         <h6 className="">
                                         <span className="text-muted">  رنگ : </span><span className=" float-left">{color} </span>

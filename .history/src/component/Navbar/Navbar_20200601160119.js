@@ -20,7 +20,7 @@ import { ProductConsumer } from '../../Context';
                                     <ProductConsumer>
                                         {value=>{
                                             return(
-                                                value.counterCart?value.counterCart : null
+                                                value.counterCart?value.
                                             )
                                         }
 
