@@ -24,7 +24,7 @@ function Total(props) {
                             <h6 className="my-3">
                                     <span className="text-muted ">   درگاه پرداخت : </span><span className="text-danger float-left">
                                             <PaypalButton total={total}
-                                            
+                                            onCli
                                             />
                                             {/* <a href='https://me.sizpay.ir/SizPayNamad/C5108E9612ABD79150011898040000800395290'><img src='https://me.sizpay.ir/SizPayNamadImg/C5108E9612ABD79150011898040000800395290' style={{cursor: 'pointer'}}/> </a> */}
                                     </span>
