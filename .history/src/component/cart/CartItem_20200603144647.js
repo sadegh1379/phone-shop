@@ -54,7 +54,7 @@ function CartItem(props) {
                            <Link to="/detail"
                            onClick={()=>handleDetail(id)}
                            >
-                                <img style={{width:'75%'}} className="img-thumbnail mx-auto" src={img} alt={title}/>
+                                <img style={{width:'60%'}} className="img-thumbnail mx-auto" src={img} alt={title}/>
                            </Link>    
                         </div>
                 

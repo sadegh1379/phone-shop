@@ -17,7 +17,7 @@ function Product(props) {
                     
                     <div className="image-container">
                     <Link to="/detail">
-                        <img  id="card-image" className="my-3" style={{width:'60px' , height:'60px' , cursor:'pointer'}} src={img} alt={title}
+                        <img  id="card-image" className="my-3" style={{width:'80px' , height:'80px' , cursor:'pointer'}} src={img} alt={title}
                          onClick={()=>handleDetail(id) }
                         />
                     </Link>
