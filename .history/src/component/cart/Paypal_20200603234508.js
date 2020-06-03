@@ -15,7 +15,7 @@ class PaypalButton extends React.Component {
                 onClick={()=>this.handlePay()}
                 >
                     پرداخت
-                </Link>
+                </a>
             </div>
         )
     }

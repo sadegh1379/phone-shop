@@ -11,11 +11,11 @@ class PaypalButton extends React.Component {
     render(){
         return (
             <div>
-                <Link to="/payment" className="btn btn-outline-success"
+                <a href={`https://me.sizpay.ir/sadeghpay`} className="btn btn-outline-success"
                 onClick={()=>this.handlePay()}
                 >
                     پرداخت
-                </Link>
+                </a>
             </div>
         )
     }

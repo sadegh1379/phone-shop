@@ -17,7 +17,7 @@ function App() {
             <Route path="/" exact component={Products}/>
             <Route path="/detail" exact component={Detail}/>
             <Route path="/cartlist" exact component={CartList}/>
-            <Route path="/payment" exact component={Payment}/>
+            <Route path="/payment" exact component={CartList}/>
 
             <Route component={PageNotFound}/>
       </Switch>

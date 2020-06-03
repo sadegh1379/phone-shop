@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Payment from '../payment/Payment';
 
 class PaypalButton extends React.Component {
 
@@ -11,11 +12,11 @@ class PaypalButton extends React.Component {
     render(){
         return (
             <div>
-                <Link to="/payment" className="btn btn-outline-success"
+                <Link to={} className="btn btn-outline-success"
                 onClick={()=>this.handlePay()}
                 >
                     پرداخت
-                </Link>
+                </a>
             </div>
         )
     }
