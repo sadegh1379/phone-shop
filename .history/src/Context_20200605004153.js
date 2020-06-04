@@ -158,9 +158,7 @@ const productContext = React.createContext();
        
             this.setState(()=>{
                 return{
-                    products : temproduct,
-                    cart : [] ,
-                    counterCart : 0
+                    cart : []
                 }
             } , ()=>this.setTotal());
         }

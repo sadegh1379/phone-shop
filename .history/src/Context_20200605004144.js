@@ -152,15 +152,17 @@ const productContext = React.createContext();
         
         if(q == true){
             let temproduct = [...this.state.products];
-             temproduct.map(item=>{
+        temproduct.map(item=>{
             item.inCart = false
         });
-       
+        this.setState(()=>{
+            return{
+                products : temproduct
+            }
+        })
             this.setState(()=>{
                 return{
-                    products : temproduct,
-                    cart : [] ,
-                    counterCart : 0
+                    cart : []
                 }
             } , ()=>this.setTotal());
         }

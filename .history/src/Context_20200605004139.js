@@ -151,16 +151,9 @@ const productContext = React.createContext();
         let q = window.confirm("آیا میخواهید کل لیست را حذف کنید ؟");
         
         if(q == true){
-            let temproduct = [...this.state.products];
-             temproduct.map(item=>{
-            item.inCart = false
-        });
-       
             this.setState(()=>{
                 return{
-                    products : temproduct,
-                    cart : [] ,
-                    counterCart : 0
+                    cart : []
                 }
             } , ()=>this.setTotal());
         }
