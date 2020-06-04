@@ -150,7 +150,7 @@ const productContext = React.createContext();
     clearCart = ()=>{
         let q = window.confirm("آیا میخواهید کل لیست را حذف کنید ؟");
         let temproduct = [...this.state.products];
-        temproduct.map(item=>{
+        product.map(item=>{
             item.inCart = false
         });
         this.setState(()=>{
