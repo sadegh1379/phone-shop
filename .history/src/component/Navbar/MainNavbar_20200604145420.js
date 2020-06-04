@@ -22,7 +22,7 @@ export default class MainNavbar extends Component {
                         </li>
                         <li className="nav-item dropdown ">
                             <a className="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                             پروفایل <span className="fa fa-user"></span>
+                             پروفایل
                             </a>
                             <div className="dropdown-menu  dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
                             <a className="dropdown-item" href="#">Action</a>
