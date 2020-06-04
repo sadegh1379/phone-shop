@@ -4,7 +4,7 @@ export default class MainNavbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-sm navbar-dark bg-dark text-center">
+                <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
                     <a className="navbar-brand text-danger" href="#">موبایل شاپ</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -20,11 +20,11 @@ export default class MainNavbar extends Component {
                         <li className="nav-item">
                             <a className="nav-link" href="#">درباره ما</a>
                         </li>
-                        <li className="nav-item dropdown float-left">
+                        <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown link
                             </a>
-                            <div className="dropdown-menu  dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
+                            <div className="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
                             <a className="dropdown-item" href="#">Action</a>
                             <a className="dropdown-item" href="#">Another action</a>
                             <a className="dropdown-item" href="#">Something else here</a>
