@@ -13,7 +13,6 @@ function App() {
   return (
 
     <div dir="rtl"  className="app">
-      <MainNavbar/>
       <Navbar/>
       <Switch>
             <Route path="/" exact component={Products}/>
