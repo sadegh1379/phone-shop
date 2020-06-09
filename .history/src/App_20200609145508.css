@@ -3,16 +3,9 @@
   --fonta : 'Lemonada', cursive ;
 }
 
-
-
-
-@font-face {
-  font-family: 'BYekan';
-  src: url('/fonts/1.eot') format('eot'),
-       url('/fonts/2.ttf') format('woff'),
-       url('/fonts/3.woff') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+@font-face{
+  font-family: 'BY';
+  src:url('./fonts/')
 }
 
 *{
@@ -21,7 +14,7 @@
 }
 .app{
   /* font-family: 'Almarai', sans-serif; */
-  font-family: var(--myfont);
+  /* font-family: var(--myfont); */
   /* font-size: 10px; */
   
 }

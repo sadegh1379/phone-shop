@@ -77,16 +77,15 @@ export default class Detail extends Component {
                                         <img style={{width:'80%' }} src={img} alt={title}/>
                                 </div>
                         </div>
-                        <div className="row  p-3 mx-auto text-center">
+                        <div className="row  p-3 mx-auto">
                      
                                             <div>
                                                 <ul className="list-group list-group-flush " style={{width:'100%'}}>
                                                 <h6 className="text-muted">نظر کاربران <span className="fa fa-arrow-down  text-danger" style={{cursor:'pointer'}}></span></h6>
                                                 {
                                                     comments  ? comments.map((com)=>{
-                                                        return <li className="list-group-item list-group-item-dark text-right text-white">
-                                                                    <span className="float-left text-danger">{com.name}</span>
-                                                                    <span className="float-right">{com.text}</span>
+                                                        return <li className="list-group-item list-group-item-dark text-right text-dark">
+
                                                             </li>
                                                     }) : null
                                                 }

@@ -77,7 +77,7 @@ export default class Detail extends Component {
                                         <img style={{width:'80%' }} src={img} alt={title}/>
                                 </div>
                         </div>
-                        <div className="row  p-3 mx-auto text-center">
+                        <div className="row  p-3 mx-auto">
                      
                                             <div>
                                                 <ul className="list-group list-group-flush " style={{width:'100%'}}>

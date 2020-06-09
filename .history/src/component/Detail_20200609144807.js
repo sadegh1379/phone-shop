@@ -77,7 +77,7 @@ export default class Detail extends Component {
                                         <img style={{width:'80%' }} src={img} alt={title}/>
                                 </div>
                         </div>
-                        <div className="row  p-3 mx-auto text-center">
+                        <div className="row  p-3 mx-auto">
                      
                                             <div>
                                                 <ul className="list-group list-group-flush " style={{width:'100%'}}>
@@ -85,8 +85,8 @@ export default class Detail extends Component {
                                                 {
                                                     comments  ? comments.map((com)=>{
                                                         return <li className="list-group-item list-group-item-dark text-right text-white">
-                                                                    <span className="float-left text-danger">{com.name}</span>
-                                                                    <span className="float-right">{com.text}</span>
+                                                                    <span className="float-left"></span>
+                                                                    <span className="float"></span>
                                                             </li>
                                                     }) : null
                                                 }

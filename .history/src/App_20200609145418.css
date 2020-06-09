@@ -5,16 +5,6 @@
 
 
 
-
-@font-face {
-  font-family: 'BYekan';
-  src: url('/fonts/1.eot') format('eot'),
-       url('/fonts/2.ttf') format('woff'),
-       url('/fonts/3.woff') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 *{
   padding: 0;
   margin: 0;

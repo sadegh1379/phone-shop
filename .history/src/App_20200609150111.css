@@ -8,9 +8,9 @@
 
 @font-face {
   font-family: 'BYekan';
-  src: url('/fonts/1.eot') format('eot'),
-       url('/fonts/2.ttf') format('woff'),
-       url('/fonts/3.woff') format('truetype');
+  src: url('../public//fonts/1.eot') format('eot'),
+       url('../public/fonts/2.ttf') format('woff'),
+       url('../') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
