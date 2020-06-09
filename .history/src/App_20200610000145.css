@@ -1,0 +1,47 @@
+:root{
+  --myfont : 'Almarai', sans-serif ;
+  --fonta : 'Lemonada', cursive ;
+}
+
+
+
+
+@font-face {
+  font-family: 'BYekan';
+  src: url('/fonts/1.eot') format('eot'),
+       url('/fonts/2.ttf') format('woff'),
+       url('/fonts/3.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.app{
+  /* font-family: 'Almarai', sans-serif; */
+  font-family: var(--myfont);
+  /* font-size: 10px; */
+  
+}
+.cost{
+  font-family: 'BYekan';
+}
+
+
+/* .text-title{
+  text-align: center;
+  font-size: 10px;
+  font-stretch: expanded;
+} */
+
+/*
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
