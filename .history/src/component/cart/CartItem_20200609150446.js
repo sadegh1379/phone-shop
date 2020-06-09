@@ -23,7 +23,7 @@ function CartItem(props) {
                                 
 
                                                         <h6>
-                                                                <span className=" "> قیمت  </span><span className="text-danger cost float-left">{price} تومان</span>
+                                                                <span className=" "> قیمت  </span><span className="text-danger  float-left">{price} تومان</span>
                                                         </h6>
                                                         <h6 className="my-3">
                                                         <span className=""> شرکت سازنده </span><span className=" float-left">{company} </span>
@@ -45,7 +45,7 @@ function CartItem(props) {
                                                 
                                                 </span>
                                                 <h6 className="my-3">
-                                                        <span className=" "> مبلغ قابل پرداخت  </span><span className="text-danger cost float-left">{price * count} تومان</span>
+                                                        <span className=" "> مبلغ قابل پرداخت  </span><span className="text-danger float-left">{price * count} تومان</span>
                                                  </h6> 
                                 </div>
                                 

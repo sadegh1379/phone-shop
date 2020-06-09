@@ -33,7 +33,7 @@ function Product(props) {
                     
                    
                     <div className="card-body">
-                        <p className="muted card-text cost">{price} <span className="h6 text-danger muted">تومان</span></p>
+                        <p className="muted card-text ">{price} <span className="h6 text-danger muted">تومان</span></p>
                     </div>
                </div>
                

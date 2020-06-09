@@ -11,18 +11,18 @@ function Total(props) {
                     <h3 className="text-dark text-center">پرداخت</h3><hr className="text-light  my-4"/>
 
                             <h6 className="my-3">
-                            <span className="text-muted"> قیمت کل   : </span><span className=" float-left h5 cost">{subTotal} </span>
+                            <span className="text-muted"> قیمت کل   : </span><span className=" float-left h5 ">{subTotal} </span>
                             </h6> 
 
                             <h6 className="my-3">
-                            <span className="text-muted"> هزینه ی پست : </span><span className=" float-left h5 cost">{tax} </span>
+                            <span className="text-muted"> هزینه ی پست : </span><span className=" float-left h5">{tax} </span>
                             </h6> 
                           
                             <h6>
-                                    <span className="text-muted "> مبلغ قابل پرداخت : </span><span className="text-danger cost float-left">{total} تومان</span>
+                                    <span className="text-muted "> مبلغ قابل پرداخت : </span><span className="text-danger float-left">{total} تومان</span>
                             </h6>
                             <h6 className="my-3">
-                                    <span className="text-muted ">   درگاه پرداخت : </span><span className="text-danger float-left cost">
+                                    <span className="text-muted ">   درگاه پرداخت : </span><span className="text-danger float-left">
                                             <PaypalButton total={total}
                                             
                                             />

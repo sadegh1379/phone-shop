@@ -15,14 +15,14 @@ function Total(props) {
                             </h6> 
 
                             <h6 className="my-3">
-                            <span className="text-muted"> هزینه ی پست : </span><span className=" float-left h5 cost">{tax} </span>
+                            <span className="text-muted"> هزینه ی پست : </span><span className=" float-left h5">{tax} </span>
                             </h6> 
                           
                             <h6>
-                                    <span className="text-muted "> مبلغ قابل پرداخت : </span><span className="text-danger cost float-left">{total} تومان</span>
+                                    <span className="text-muted "> مبلغ قابل پرداخت : </span><span className="text-danger float-left">{total} تومان</span>
                             </h6>
                             <h6 className="my-3">
-                                    <span className="text-muted ">   درگاه پرداخت : </span><span className="text-danger float-left cost">
+                                    <span className="text-muted ">   درگاه پرداخت : </span><span className="text-danger float-left">
                                             <PaypalButton total={total}
                                             
                                             />

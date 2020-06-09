@@ -22,7 +22,7 @@ function Total(props) {
                                     <span className="text-muted "> مبلغ قابل پرداخت : </span><span className="text-danger cost float-left">{total} تومان</span>
                             </h6>
                             <h6 className="my-3">
-                                    <span className="text-muted ">   درگاه پرداخت : </span><span className="text-danger float-left cost">
+                                    <span className="text-muted ">   درگاه پرداخت : </span><span className="text-danger float-left">
                                             <PaypalButton total={total}
                                             
                                             />
