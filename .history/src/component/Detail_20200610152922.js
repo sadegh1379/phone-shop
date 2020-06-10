@@ -133,7 +133,7 @@ export default class Detail extends Component {
                                                     }
                                                    
                                                 }}>
-                                                        <div className="row mt-3 px-2 mx-auto">
+                                                        <div className="row mt-3">
                                                             <div className="col">
                                                             <input type="text"  className="form-control form-control-sm" placeholder=" نام"
                                                             value={this.state.name}
@@ -148,8 +148,9 @@ export default class Detail extends Component {
                                                             onChange={(e)=>this.handleChangeText(e)}
                                                             />
                                                             </div>
+                                                            <button type="submit" className="btn  btn-dark btn-block mt-4">افزودن نظر</button>
                                                         </div>
-                                                        <button type="submit" className="btn  btn-dark btn-block mt-4">افزودن نظر</button>
+                                                        
                                                 </form>
                                                    
                                                 </li>

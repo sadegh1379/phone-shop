@@ -266,7 +266,7 @@ const productContext = React.createContext();
                     products : tempProduct
                 }
             })
-        
+        }
         
         
 

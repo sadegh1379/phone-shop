@@ -122,9 +122,10 @@ export default class Detail extends Component {
                                                 onSubmit={(e)=>{
                                                     e.preventDefault()
                                                     const {name , text} = this.state;
-                                                    if(name === '' || text === ''){
-                                                        alert('لطفا هر دو فیلد را پر کنید')
-                                                    
+                                                    if(name === '' ){
+                                                        alert('لطفا نام خود را وارد کنید')
+                                                    }else if(text === ''){
+                                                        alert('لطفا نظر خود را بنویسید')
                                                     }else{
                                                        
                                                         addComment(name , text , id);
@@ -133,7 +134,7 @@ export default class Detail extends Component {
                                                     }
                                                    
                                                 }}>
-                                                        <div className="row mt-3 px-2 mx-auto">
+                                                        <div className="row mt-3">
                                                             <div className="col">
                                                             <input type="text"  className="form-control form-control-sm" placeholder=" نام"
                                                             value={this.state.name}

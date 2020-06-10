@@ -120,20 +120,13 @@ export default class Detail extends Component {
                                                 <li>
                                                 <form 
                                                 onSubmit={(e)=>{
+                                                    const {}
                                                     e.preventDefault()
-                                                    const {name , text} = this.state;
-                                                    if(name === '' || text === ''){
-                                                        alert('لطفا هر دو فیلد را پر کنید')
-                                                    
-                                                    }else{
-                                                       
-                                                        addComment(name , text , id);
-                                                        this.state.name = ''
-                                                        this.state.text = ''
-                                                    }
-                                                   
+                                                    addComment(this.state.name , this.state.text , id);
+                                                    this.state.name = ''
+                                                    this.state.text = ''
                                                 }}>
-                                                        <div className="row mt-3 px-2 mx-auto">
+                                                        <div className="row mt-3">
                                                             <div className="col">
                                                             <input type="text"  className="form-control form-control-sm" placeholder=" نام"
                                                             value={this.state.name}

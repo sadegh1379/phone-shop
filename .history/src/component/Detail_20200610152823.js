@@ -133,8 +133,8 @@ export default class Detail extends Component {
                                                     }
                                                    
                                                 }}>
-                                                        <div className="row mt-3 px-2 mx-auto">
-                                                            <div className="col">
+                                                        <div className="row mt-3">
+                                                            <div className="col-">
                                                             <input type="text"  className="form-control form-control-sm" placeholder=" نام"
                                                             value={this.state.name}
                                                             name="name"

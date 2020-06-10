@@ -249,7 +249,7 @@ const productContext = React.createContext();
 
     addComment = (name , comment , id)=>{
        
-    
+        }else{
             let tempProduct = [...this.state.products];
             const index = tempProduct.indexOf(this.findProduct(id));
             const product = tempProduct[index];
@@ -266,7 +266,7 @@ const productContext = React.createContext();
                     products : tempProduct
                 }
             })
-        
+        }
         
         
 

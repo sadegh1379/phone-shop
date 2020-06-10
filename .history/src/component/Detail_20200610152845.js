@@ -133,15 +133,15 @@ export default class Detail extends Component {
                                                     }
                                                    
                                                 }}>
-                                                        <div className="row mt-3 px-2 mx-auto">
-                                                            <div className="col">
+                                                        <div className="row mt-3">
+                                                            <div className="col-11">
                                                             <input type="text"  className="form-control form-control-sm" placeholder=" نام"
                                                             value={this.state.name}
                                                             name="name"
                                                             onChange={(e)=>this.handleChangeName(e)}
                                                             />
                                                             </div>
-                                                            <div className="col">
+                                                            <div className="col-10">
                                                             <input type="text" className="form-control form-control-sm" placeholder="نظر شما"
                                                             value={this.state.text}
                                                             name="text"
