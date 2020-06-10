@@ -11,7 +11,7 @@ function CartItem(props) {
     const{handleRemoveItem , handleDetail , decreament , increament} = props.value;
     return (
             <div style={styled} className="  row d-flex text-center   justify-content-center my-4"
-            
+            data-wow-duration="3s" data-wow-dely="1s"
             >
 
                         <div className="col-lg-6 text-center mx-auto  col-md-12 py-md-4 my-xs-4">

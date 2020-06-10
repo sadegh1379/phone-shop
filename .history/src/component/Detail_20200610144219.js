@@ -71,7 +71,6 @@ export default class Detail extends Component {
                                         <div className=" text-center my-4">
                                            
                                             <button disabled={inCart?true : false}
-                                            
                                             onClick={()=>addToCart(id)}
                                             className="btn float-right btn-outline-info flat">
                                                     {inCart?    (<div>
@@ -141,7 +140,7 @@ export default class Detail extends Component {
                                                             />
                                                             </div>
                                                         </div>
-                                                        <button type="submit" className="btn  btn-dark btn-block mt-4">افزودن نظر</button>
+                                                        <button type="submit" className="btn  btn-war btn-block mt-4">افزودن نظر</button>
                                                 </form>
                                                    
                                                 </li>

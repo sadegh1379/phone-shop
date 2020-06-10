@@ -71,7 +71,6 @@ export default class Detail extends Component {
                                         <div className=" text-center my-4">
                                            
                                             <button disabled={inCart?true : false}
-                                            
                                             onClick={()=>addToCart(id)}
                                             className="btn float-right btn-outline-info flat">
                                                     {inCart?    (<div>

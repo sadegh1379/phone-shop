@@ -6,8 +6,8 @@ function Total(props) {
     const {total , subTotal , tax} = props.value ;
     return (
         <div className="container py-3">
-            <div className="row wow bounceInDown"
-             
+            <div className="row wow bounceInRight"
+            class="" data-wow-offset="10"  data-wow-iteration="10"
             >
                     <div className="col-10 text-right mx-auto">
                     <h3 className="text-dark text-center">پرداخت</h3><hr className="text-light  my-4"/>

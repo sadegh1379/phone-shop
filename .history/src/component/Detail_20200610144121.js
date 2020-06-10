@@ -64,14 +64,13 @@ export default class Detail extends Component {
                                         
                                             </span>
                                         </h6> 
-                                        <h6 data-wow-dely="1s" data-wow-duration="2s" className="wow bounceInUp">
+                                        <h6 data-wow-dely="3s" data-wow-duration="2s" className="wow bounceInUp">
                                         <span className="text-muted">  خصوصیات : </span><span className=" float-left my-3">{info} </span>
                                         </h6> 
 
                                         <div className=" text-center my-4">
                                            
                                             <button disabled={inCart?true : false}
-                                            
                                             onClick={()=>addToCart(id)}
                                             className="btn float-right btn-outline-info flat">
                                                     {inCart?    (<div>
@@ -141,7 +140,7 @@ export default class Detail extends Component {
                                                             />
                                                             </div>
                                                         </div>
-                                                        <button type="submit" className="btn  btn-dark btn-block mt-4">افزودن نظر</button>
+                                                        <button type="submit" className="btn  btn-success btn-block mt-4">افزودن نظر</button>
                                                 </form>
                                                    
                                                 </li>

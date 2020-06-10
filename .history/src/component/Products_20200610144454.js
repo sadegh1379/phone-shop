@@ -7,7 +7,7 @@ export default class Products extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container mt-2">
+                <div className="container x">
                     <div className="row d-flex justify-content-between align-items-center">
                             <ProductConsumer>
                             

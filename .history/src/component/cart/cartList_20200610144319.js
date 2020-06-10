@@ -36,7 +36,7 @@ export default class cartList extends Component {
                                        
                                                      <h6 className=" text-center container p-4 ">سبد خرید شما خالی است</h6>
                                        
-                                        <Link className="btn btn-outline-danger mx-auto wow bounceInLeft" to="/" data-wow-dely="3s" data-wow-duration="2s" >بازگشت به فروشگاه <span className="fa fa-arrow-left"></span></Link>
+                                        <Link className="btn btn-outline-danger mx-auto" to="/" data-wow-dely="3s" data-wow-duration="2s" className="wow bounceInRight">بازگشت به فروشگاه <span className="fa fa-arrow-left"></span></Link>
 
                                 </div>
                                

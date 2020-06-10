@@ -71,7 +71,7 @@ export default class Detail extends Component {
                                         <div className=" text-center my-4">
                                            
                                             <button disabled={inCart?true : false}
-                                            
+                                            class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10"
                                             onClick={()=>addToCart(id)}
                                             className="btn float-right btn-outline-info flat">
                                                     {inCart?    (<div>
