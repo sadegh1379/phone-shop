@@ -107,7 +107,7 @@ export default class Detail extends Component {
                                                 
                                                 { 
                                                     comments && this.state.open   ? comments.map((com , index)=>{
-                                                        return <li key={index} className="list-group-item list-group-item-dark py-3  comments  px-1 text-right"
+                                                        return <li key={index} className="list-group-item list-group-item-dark py-3 wow bounceInRight comments  px-1 text-right"
                                                         
                                                         >
                                                                     <h6 className="float-right  badge badge-warning">{com.name}</h6><br/>
