@@ -41,9 +41,8 @@
   font-size: 12px;
 }
 
-.comments-ul li{
-  margin-top: 13px;
-  border-radius: 30px !important;
+.comments-ul{
+  border-radius: 100px;
 }
 /* .text-title{
   text-align: center;

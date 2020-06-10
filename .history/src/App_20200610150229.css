@@ -33,17 +33,8 @@
   transition: all 2s linear ;
 }
 
-.floatspan{
-  margin-left: -50px;
-}
-
-.comments p {
-  font-size: 12px;
-}
-
-.comments-ul li{
-  margin-top: 13px;
-  border-radius: 30px !important;
+.floatsoan{
+  margin-left: 100px;
 }
 /* .text-title{
   text-align: center;

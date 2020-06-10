@@ -97,7 +97,7 @@ export default class Detail extends Component {
                         <div className="row  p-3 mx-auto text-center">
                      
                                             
-                                                <ul className="list-group comments-ul list-group-flush py-3 list-unstyled cost transition " style={{width:'100%'}}>
+                                                <ul className="list-group comments list-group-flush py-3 list-unstyled cost transition " style={{width:'100%'}}>
                                                 <h6 className="text-muted "
                                                  onClick={this.handleOpen}
                                                  style={{cursor:'pointer'}}

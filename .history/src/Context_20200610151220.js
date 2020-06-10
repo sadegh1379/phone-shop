@@ -252,26 +252,24 @@ const productContext = React.createContext();
             alert('لطفا نام خود را وارد کنید')
         }else if(comment === ''){
             alert('لطفا نظر خود را بنویسید')
-        }else{
-            let tempProduct = [...this.state.products];
-            const index = tempProduct.indexOf(this.findProduct(id));
-            const product = tempProduct[index];
-            let newComment = {
-                name : name ,
-                text : comment
-            }
-      
-    
-            product.comments = [...product.comments , newComment]
-    
-            this.setState(()=>{
-                return{
-                    products : tempProduct
-                }
-            })
+        }else
+        
+        let tempProduct = [...this.state.products];
+        const index = tempProduct.indexOf(this.findProduct(id));
+        const product = tempProduct[index];
+        let newComment = {
+            name : name ,
+            text : comment
         }
-        
-        
+  
+
+        product.comments = [...product.comments , newComment]
+
+        this.setState(()=>{
+            return{
+                products : tempProduct
+            }
+        })
 
     }
      

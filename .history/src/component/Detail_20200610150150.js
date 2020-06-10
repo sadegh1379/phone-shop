@@ -57,7 +57,7 @@ export default class Detail extends Component {
                                         <h6>
                                         <span className="text-muted">  رنگ : 
                                         </span>
-                                             <span className=" float-left floatspan">
+                                             <span className=" float-left text-left">
                                         
                                                 <span className="badge " style={{ backgroundColor: color_e , color: color_e}}>C</span>
                                                 {color_p} 
@@ -97,7 +97,7 @@ export default class Detail extends Component {
                         <div className="row  p-3 mx-auto text-center">
                      
                                             
-                                                <ul className="list-group comments-ul list-group-flush py-3 list-unstyled cost transition " style={{width:'100%'}}>
+                                                <ul className="list-group list-group-flush py-3 list-unstyled cost transition " style={{width:'100%'}}>
                                                 <h6 className="text-muted "
                                                  onClick={this.handleOpen}
                                                  style={{cursor:'pointer'}}
@@ -107,7 +107,7 @@ export default class Detail extends Component {
                                                 
                                                 { 
                                                     comments && this.state.open   ? comments.map((com , index)=>{
-                                                        return <li key={index} className="list-group-item list-group-item-dark py-3 wow bounceInRight comments  px-1 text-right"
+                                                        return <li key={index} className="list-group-item list-group-item-dark py-3 wow bounceInRight  px-1 text-right"
                                                         data-wow-dely="2s" data-wow-duration="1s"
                                                         >
                                                                     <h6 className="float-right  badge badge-warning">{com.name}</h6><br/>

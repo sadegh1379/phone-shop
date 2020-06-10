@@ -37,13 +37,8 @@
   margin-left: -50px;
 }
 
-.comments p {
-  font-size: 12px;
-}
-
-.comments-ul li{
-  margin-top: 13px;
-  border-radius: 30px !important;
+.comments{
+  font-size: 10px;
 }
 /* .text-title{
   text-align: center;

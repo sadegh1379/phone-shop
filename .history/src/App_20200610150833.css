@@ -41,8 +41,7 @@
   font-size: 12px;
 }
 
-.comments-ul li{
-  margin-top: 13px;
+.comments-ul{
   border-radius: 30px !important;
 }
 /* .text-title{

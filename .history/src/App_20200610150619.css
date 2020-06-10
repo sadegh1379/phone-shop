@@ -38,12 +38,7 @@
 }
 
 .comments p {
-  font-size: 12px;
-}
-
-.comments-ul li{
-  margin-top: 13px;
-  border-radius: 30px !important;
+  font-size: 20px;
 }
 /* .text-title{
   text-align: center;
