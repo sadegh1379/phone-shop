@@ -105,7 +105,7 @@ const productContext = React.createContext();
     // handle Modal************************************
 
     handleDetail = (id)=>{
-        
+        e.preventDefault();
         let tempProduct = [...this.state.products];
         const index= tempProduct.indexOf(this.findProduct(id));
         const product = tempProduct[index];

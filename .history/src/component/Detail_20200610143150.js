@@ -41,20 +41,20 @@ export default class Detail extends Component {
                     const {addToCart  , addComment} = value;
                     return(
                         <>
-                        <div className="row text-center d-flex   my-0 py-1 " >
+                        <div className="row text-center d-flex   my-0 py-1 " data-wow-dely="3s" data-wow-duration="2s">
                                
                                 <div className="col-lg-6 text-right col-md-6 my-md-3 justify-content-between align-items-center my-sm-3  col-sm-10 py-4 px-5">
-                                        <h3 className="text-dark text-center wow bounceInRight" data-wow-dely="3s" data-wow-duration="2s">{title}</h3><hr className="text-light  my-4"/>
+                                        <h3 className="text-dark text-center">{title}</h3><hr className="text-light  my-4"/>
 
-                                        <h6 data-wow-dely="3s" data-wow-duration="2s" className="wow bounceInRight">
+                                        <h6>
                                                 <span className="text-muted "> قیمت : </span><span className="text-danger cost float-left">{price} تومان</span>
                                         </h6>
 
-                                        <h6 className="my-3" data-wow-dely="3s" data-wow-duration="2s" className="wow bounceInRight">
+                                        <h6 className="my-3">
                                         <span className="text-muted"> شرکت سازنده : </span><span className=" float-left h5">{company} </span>
                                         </h6> 
 
-                                        <h6 className="" data-wow-dely="3s" data-wow-duration="2s" className="wow bounceInRight">
+                                        <h6 className="">
                                         <span className="text-muted">  رنگ : 
                                         </span>
                                              <span className=" float-left ">

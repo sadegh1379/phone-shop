@@ -20,7 +20,7 @@ function Product(props) {
                     <div className="image-container">
                     <Link to="/detail">
                         <img  id="card-image" className="my-3" style={{width:'60px' , height:'60px' , cursor:'pointer'}} src={img} alt={title}
-                         onClick={(e)=>e.preventDefault() , ()=>handleDetail(id) }
+                         onClick={(e)=>handleDetail(id ,e) }
                         />
                     </Link>
                         <button disabled={inCart ? true : false} id="cart-btn"  className="btn btn-outline-info"
