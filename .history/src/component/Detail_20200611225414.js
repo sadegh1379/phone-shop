@@ -110,12 +110,12 @@ export default class Detail extends Component {
                                 <div className="col-lg-6 col-sm-10 col-md-6 p-4 mx-auto">
                                     <Zoom >
                                     <picture>
-                                        {/* <source media="(max-width: 800px)" srcSet="/path/to/teAraiPoint.jpg" /> */}
+                                        <source media="(max-width: 800px)" srcSet="/path/to/teAraiPoint.jpg" />
                                     <img style={{width:'80%' }} src={img} alt={title}/>
                                     </picture>
                                     </Zoom>
                                     <figure>
-                                    <figcaption className="text-muted">برای دیدن کلیک کنید</figcaption>
+                                    <figcaption>برای </figcaption>
                                     </figure>
                                 </div>
                         </div>

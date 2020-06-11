@@ -107,16 +107,11 @@ export default class Detail extends Component {
                                         
                                 </div>
                                 
-                                <div className="col-lg-6 col-sm-10 col-md-6 p-4 mx-auto">
-                                    <Zoom >
-                                    <picture>
-                                        {/* <source media="(max-width: 800px)" srcSet="/path/to/teAraiPoint.jpg" /> */}
-                                    <img style={{width:'80%' }} src={img} alt={title}/>
-                                    </picture>
+                                <div className="col-lg-6 col-sm-10 col-md-6 p-4">
+                                    <Zoom>
+                                        
                                     </Zoom>
-                                    <figure>
-                                    <figcaption className="text-muted">برای دیدن کلیک کنید</figcaption>
-                                    </figure>
+                                        <img style={{width:'80%' }} src={img} alt={title}/>
                                 </div>
                         </div>
                         <div className="row  p-3 mx-auto text-center">

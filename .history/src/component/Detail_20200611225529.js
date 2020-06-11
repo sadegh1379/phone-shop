@@ -115,7 +115,7 @@ export default class Detail extends Component {
                                     </picture>
                                     </Zoom>
                                     <figure>
-                                    <figcaption className="text-muted">برای دیدن کلیک کنید</figcaption>
+                                    <figcaption>برای دیدن کلیک کنید</figcaption>
                                     </figure>
                                 </div>
                         </div>
