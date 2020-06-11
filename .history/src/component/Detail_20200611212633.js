@@ -54,7 +54,7 @@ export default class Detail extends Component {
                                         <span className="text-muted"> شرکت سازنده : </span><span className=" float-left h5">{company} </span>
                                         </h6> 
 
-                                        <h6 className="wow bounceInRight"  data-wow-dely="3s" data-wow-duration="2s">
+                                        <h6 >
                                         <span className="text-muted">  رنگ : 
                                         </span>
                                              <span className=" float-left floatspan">
