@@ -66,7 +66,7 @@ export default class Detail extends Component {
                                         
                                             </span>
                                         </h6> 
-                                        <h6 className="wow bounceInRight mt-2"  data-wow-dely="3s" data-wow-duration="2s">
+                                        <h6 className="wow bounceInRight mt"  data-wow-dely="3s" data-wow-duration="2s">
 
                                         <span className="text-muted">  رنگ بندی : 
                                         </span>

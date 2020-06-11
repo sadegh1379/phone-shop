@@ -66,14 +66,14 @@ export default class Detail extends Component {
                                         
                                             </span>
                                         </h6> 
-                                        <h6 className="wow bounceInRight mt-2"  data-wow-dely="3s" data-wow-duration="2s">
+                                        <h6 className="wow bounceInRight"  data-wow-dely="3s" data-wow-duration="2s">
 
                                         <span className="text-muted">  رنگ بندی : 
                                         </span>
                                              <span className=" float-left floatspan  ml-2">
                                                 <span onClick={()=>changeColor(id , 'red')} className="btn " style={{ backgroundColor: 'red' , color: 'red'}}>C</span>
-                                                <span onClick={()=>changeColor(id , 'gold')} className="btn  mx-3" style={{ backgroundColor: 'gold' , color: 'gold'}}>C</span>
-                                                <span onClick={()=>changeColor(id , 'black')} className="btn " style={{ backgroundColor: 'black' , color: 'black'}}>C</span>
+                                                <span onClick={()=>changeColor(id , 'gold')} className="btn  mx-1" style={{ backgroundColor: 'gold' , color: 'gold'}}>C</span>
+                                                <span onClick={()=>changeColor(id , 'black')} className="btn btn-sm " style={{ backgroundColor: 'black' , color: 'black'}}>C</span>
 
                                             </span>
                                         </h6> 
