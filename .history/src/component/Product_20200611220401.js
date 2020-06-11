@@ -14,7 +14,7 @@ function Product(props) {
         <div className="col-10 col-lg-4 col-md-6  text-center wow bounceInUp justify-content-center mx-auto py-1"
         data-wow-duration="1s" data-wow-dely="1s"
         >
-               <div className="card card-p card-hover py-3">
+               <div className="card car card-hover py-3">
                     <strong className="card-title">{title}</strong>
                     
                     <div className="image-container">

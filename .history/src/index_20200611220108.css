@@ -6,12 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgb(219, 215, 215) !important; */
-  background-color:rgb(245,249,252) !important;
-}
-
-.cart-p{
-  background-color: #fff !important
-  ;
 }
 
 code {

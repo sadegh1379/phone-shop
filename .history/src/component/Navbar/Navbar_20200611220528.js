@@ -16,7 +16,7 @@ import { ProductConsumer } from '../../Context';
                     
                         <Link className="btn btn-dark   " to="/cartlist">
                          <span className="text-white text-center"> 
-                            <span className="badge badge-light bg-light ">
+                            <span className="badge badge-white ">
                                     <ProductConsumer>
                                         {value=>{
                                             return(
