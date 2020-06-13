@@ -86,7 +86,7 @@ export default class Detail extends Component {
 
 
                                         <h6 data-wow-dely="1s" data-wow-duration="2s" className="wow bounceInUp mt-4">
-                                        <span className="text-muted">  خصوصیات : </span><span className=" float-left my-3  small line-height">{info} </span>
+                                        <span className="text-muted">  خصوصیات : </span><span className=" float-left my-3 small line-height">{info} </span>
                                         </h6> 
 
                                         

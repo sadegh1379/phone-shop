@@ -12,22 +12,22 @@ export default class MainNavbar extends Component {
                     <div className="collapse navbar-collapse mr-4" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <a className="nav-link" href="/login">خانه <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="/">خانه <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/">فروشگاه</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">درباره ما</a>
+                            <a className="nav-link" href="#">درباره ما</a>
                         </li>
                         <li className="nav-item dropdown ">
                             <a className="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                              پروفایل <span className="fa fa-user"></span>
                             </a>
-                            <div className="dropdown-menu text-right  dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
-                            <a className="dropdown-item" style={{fontSize:'13px'}} href="#"> <span className="fa fa-user-o ml-2"></span>عملکرد</a>
-                            <a className="dropdown-item " style={{fontSize:'13px'}} href="#"><i class="fa fa-address-card-o ml-2"  aria-hidden="true"></i>مشخصات</a>
-                            <a className="dropdown-item" style={{fontSize:'13px'}} href="#"><i class="fa fa-info ml-2" aria-hidden="true"></i>بیشتر...</a>
+                            <div className="dropdown-menu  dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
+                            <a className="dropdown-item" href="#">Action</a>
+                            <a className="dropdown-item" href="#">Another action</a>
+                            <a className="dropdown-item" href="#">Something else here</a>
                             </div>
                         </li>
                         </ul>

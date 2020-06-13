@@ -18,7 +18,7 @@ export default class MainNavbar extends Component {
                             <a className="nav-link" href="/">فروشگاه</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">درباره ما</a>
+                            <a className="nav-link" href="/about">درباره ما</a>
                         </li>
                         <li className="nav-item dropdown ">
                             <a className="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

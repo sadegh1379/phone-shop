@@ -18,7 +18,7 @@ export default class MainNavbar extends Component {
                             <a className="nav-link" href="/">فروشگاه</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">درباره ما</a>
+                            <a className="nav-link" href="/about">درباره ما</a>
                         </li>
                         <li className="nav-item dropdown ">
                             <a className="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,7 +27,7 @@ export default class MainNavbar extends Component {
                             <div className="dropdown-menu text-right  dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
                             <a className="dropdown-item" style={{fontSize:'13px'}} href="#"> <span className="fa fa-user-o ml-2"></span>عملکرد</a>
                             <a className="dropdown-item " style={{fontSize:'13px'}} href="#"><i class="fa fa-address-card-o ml-2"  aria-hidden="true"></i>مشخصات</a>
-                            <a className="dropdown-item" style={{fontSize:'13px'}} href="#"><i class="fa fa-info ml-2" aria-hidden="true"></i>بیشتر...</a>
+                            <a className="dropdown-item" style={{fontSize:'13px'}} href="#">بیشتر...</a>
                             </div>
                         </li>
                         </ul>
