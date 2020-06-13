@@ -1,0 +1,3 @@
+function GetId(){
+    document.href
+}
