@@ -125,12 +125,12 @@ function Footer() {
                 <i className="fa fa-google-plus"> </i>
               </a>
             </li>
-            <li data-wow-dely="0.5s" data-wow-duration="4s" className="list-inline-item wow bounceInLeft">
+            <li data-wow-dely="1s" data-wow-duration="4s" className="list-inline-item wow bounceInLeft">
               <a className="btn-floating btn-li mx-1">
                 <i className="fa fa-linkedin"> </i>
               </a>
             </li>
-            <li data-wow-dely="0.5s" data-wow-duration="5s" className="list-inline-item wow  bounceInLeft">
+            <li data-wow-dely="1s" data-wow-duration="5s" className="list-inline-item wow  bounceInLeft">
               <a className="btn-floating btn-dribbble mx-1">
                 <i className="fa fa-dribbble"> </i>
               </a>

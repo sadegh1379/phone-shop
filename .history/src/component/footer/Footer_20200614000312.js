@@ -110,27 +110,27 @@ function Footer() {
         
           {/* <!-- Social buttons --> */}
           <ul className="list-unstyled buttons list-inline text-center ">
-            <li data-wow-dely="0.5s" data-wow-duration="1s" className="list-inline-item wow bounceInLeft">
+            <li  className="list-inline-item">
               <a className="btn-floating btn-fb mx-1">
                 <i className="fa fa-facebook-f"> </i>
               </a>
             </li>
-            <li data-wow-dely="0.5s" data-wow-duration="2s" className="list-inline-item wow bounceInLeft">
+            <li className="list-inline-item">
               <a className="btn-floating btn-tw mx-1">
                 <i className="fa fa-twitter"> </i>
               </a>
             </li>
-            <li data-wow-dely="0.5s" data-wow-duration="3s" className="list-inline-item wow bounceInLeft" >
+            <li className="list-inline-item">
               <a className="btn-floating btn-gplus mx-1">
                 <i className="fa fa-google-plus"> </i>
               </a>
             </li>
-            <li data-wow-dely="0.5s" data-wow-duration="4s" className="list-inline-item wow bounceInLeft">
+            <li className="list-inline-item">
               <a className="btn-floating btn-li mx-1">
                 <i className="fa fa-linkedin"> </i>
               </a>
             </li>
-            <li data-wow-dely="0.5s" data-wow-duration="5s" className="list-inline-item wow  bounceInLeft">
+            <li className="list-inline-item">
               <a className="btn-floating btn-dribbble mx-1">
                 <i className="fa fa-dribbble"> </i>
               </a>
