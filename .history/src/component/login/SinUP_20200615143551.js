@@ -4,7 +4,7 @@ export class SinUP extends Component {
     render() {
         return (
             <div>
-            <div className="py-4 wow bounceInRight" data-wow-dely="1s" data-wow-duration="2s">
+            <div className="py-4 wow bounce" data-wow-dely="1s" data-wow-duration="2s">
             <div dir="ltr"  className="container h-100 mt-4 login-h">
                 <div className="d-flex justify-content-center h-100">
                  <div className="user_card">

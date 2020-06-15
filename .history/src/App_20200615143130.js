@@ -28,7 +28,7 @@ function App() {
             <Route path="/payment" exact component={Payment}/>
             <Route path="/login" exact component={SinIn}/>
             <Route path="/sinup" exact component={SinUp}/>
-            <Route path="/forgetpassword" exact component={ForgetPassword}/>
+            <Route path="/forgetpassword" exact component={SinUp}/>
 
 
 

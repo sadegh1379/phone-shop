@@ -12,7 +12,7 @@ import MainNavbar from './component/Navbar/MainNavbar';
 import Footer from './component/footer/Footer';
 import SinIn from './component/login/SinIn';
 import SinUp from './component/login/SinUP';
-import ForgetPassword from './component/login/ForgetPassword'
+import ForgetPassword from './component/'
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
             <Route path="/payment" exact component={Payment}/>
             <Route path="/login" exact component={SinIn}/>
             <Route path="/sinup" exact component={SinUp}/>
-            <Route path="/forgetpassword" exact component={ForgetPassword}/>
+            <Route path="/forgetpassword" exact component={SinUp}/>
 
 
 

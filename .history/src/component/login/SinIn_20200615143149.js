@@ -14,8 +14,8 @@ import './login.css';
      
     render() {
         return (
-            <div data-wow-dely="1s" data-wow-duration="2s" className="py-4 wow bounceInRight">
-               <div dir="ltr"   className="container   h-100 mt-4 login-h">
+            <div className="py-4">
+               <div dir="ltr"  className="container h-100 mt-4 login-h">
 		<div className="d-flex justify-content-center h-100">
 			<div className="user_card">
 				<div className="d-flex justify-content-center">
@@ -54,7 +54,7 @@ import './login.css';
 						حساب کاربری ندارید? <Link to="/sinup" className="ml-2">ثبت نام</Link>
 					</div>
 					<div className="d-flex justify-content-center links">
-						<Link to="/forgetpassword">فراموشی رمز?</Link>
+						<Link href="#">فراموشی رمز?</a>
 					</div>
 				</div>
 			</div>

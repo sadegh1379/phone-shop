@@ -14,8 +14,8 @@ import './login.css';
      
     render() {
         return (
-            <div data-wow-dely="1s" data-wow-duration="2s" className="py-4 wow bounceInRight">
-               <div dir="ltr"   className="container   h-100 mt-4 login-h">
+            <div className="py-4">
+               <div dir="ltr" data-wow-dely="0.5s" data-wow-duration="2s"  className="container wow bounceInUP h-100 mt-4 login-h">
 		<div className="d-flex justify-content-center h-100">
 			<div className="user_card">
 				<div className="d-flex justify-content-center">
