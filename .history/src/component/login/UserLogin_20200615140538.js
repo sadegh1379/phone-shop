@@ -13,7 +13,7 @@ import './login.css'
     render() {
         return (
             <div className="py-4">
-               <div  class="container h-100 mt-4 login-h">
+               <div  class="container h-100 mt-4">
 		<div class="d-flex justify-content-center h-100">
 			<div class="user_card">
 				<div class="d-flex justify-content-center">
