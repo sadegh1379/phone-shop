@@ -13,17 +13,17 @@ import './login.css'
     render() {
         return (
             <div className="py-4">
-               <div dir="ltr"  class="container h-100 mt-4 login-h">
-		<div class="d-flex justify-content-center h-100">
-			<div class="user_card">
-				<div class="d-flex justify-content-center">
-					<div class="brand_logo_container">
-						<img src="https://png.pngtree.com/png-clipart/20190925/original/pngtree-mobile-shopping-mall-online-shopping-png-image_4986602.jpg" class="brand_logo" alt="Logo"/>
+               <div dir="ltr"  className="container h-100 mt-4 login-h">
+		<div className="d-flex justify-content-center h-100">
+			<div className="user_card">
+				<div className="d-flex justify-content-center">
+					<div className="brand_logo_container">
+						<img src="https://png.pngtree.com/png-clipart/20190925/original/pngtree-mobile-shopping-mall-online-shopping-png-image_4986602.jpg" className="brand_logo" alt="Logo"/>
 					</div>
 				</div>
-				<div class="d-flex justify-content-center form_container">
+				<div className="d-flex justify-content-center form_container">
 					<form className="text-right">
-						<div class="input-group mb-3">
+						<div className="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fa fa-user"></i></span>
 							</div>

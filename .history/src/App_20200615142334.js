@@ -11,7 +11,7 @@ import Payment from './component/payment/Payment';
 import MainNavbar from './component/Navbar/MainNavbar';
 import Footer from './component/footer/Footer';
 import SinIn from './component/login/SinIn';
-import SinUp from './component/login/SinUP'
+import SinUp from './'
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
             <Route path="/cartlist" exact component={CartList}/>
             <Route path="/payment" exact component={Payment}/>
             <Route path="/login" exact component={SinIn}/>
-            <Route path="/sinup" exact component={SinUp}/>
+            <Route path="/sinup" exact component={SinIn}/>
 
 
             <Route component={PageNotFound}/>

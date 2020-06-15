@@ -26,7 +26,7 @@ function App() {
             <Route path="/cartlist" exact component={CartList}/>
             <Route path="/payment" exact component={Payment}/>
             <Route path="/login" exact component={SinIn}/>
-            <Route path="/sinup" exact component={SinUp}/>
+            <Route path="/sinup" exact component={Sin}/>
 
 
             <Route component={PageNotFound}/>
