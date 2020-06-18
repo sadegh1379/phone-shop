@@ -35,7 +35,7 @@ export default class UserProvider extends Component {
 
     // add user
     addUser = (user)=>{
-        let chek ;
+        
         let users = [...this.state.users]
         if(user.pass_1 != user.pass_2){
             this.setState({
@@ -59,7 +59,7 @@ export default class UserProvider extends Component {
                 sinUp : true
             }})
 
-             chek = true;
+             
         }
         setTimeout(()=>{
             this.setState({
@@ -71,7 +71,7 @@ export default class UserProvider extends Component {
     
         } , 3000)
 
-       return chek;
+       
         
     }
 

@@ -26,7 +26,7 @@ export class SinUP extends Component {
             let newUser = this.state ;
              let chek = func(newUser);
             if(chek){
-                setTimeout(()=>this.props.history.push('/login') , 3000)
+                setTimeout(()=>this.props.history.push('/userphone') , 3000)
             }
             
 
@@ -64,7 +64,7 @@ export class SinUP extends Component {
                          <div className="input-group-append">
                              <span className="input-group-text"><i className="fa fa-user"></i></span>
                          </div>
-                         <input onChange={this.handleChange} type="text" name="name" className="form-control input_user text-right" value={name} required placeholder=" نام کاربری "/>
+                         <input onChange={this.handleChange} type="text" name="name" className="form-control input_user text-right" value={name} required placeholder=" نام "/>
                      </div>
                      <div className="input-group my-3">
                          <div className="input-group-append">

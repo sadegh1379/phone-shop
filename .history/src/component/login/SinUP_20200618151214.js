@@ -26,7 +26,7 @@ export class SinUP extends Component {
             let newUser = this.state ;
              let chek = func(newUser);
             if(chek){
-                setTimeout(()=>this.props.history.push('/login') , 3000)
+                setTimeout(()=>this.props.history.push('/userphone') , 3000)
             }
             
 

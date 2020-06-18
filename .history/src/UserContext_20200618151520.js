@@ -71,7 +71,7 @@ export default class UserProvider extends Component {
     
         } , 3000)
 
-       return chek;
+       
         
     }
 
