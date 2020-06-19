@@ -23,7 +23,7 @@ function App() {
       <Navbar/>
       <Switch>
             
-            {/* <Route path="/sinin" exact component={SinIn}/> */}
+            <Route path="/" exact component={SinIn}/>
             <Route path="/detail" exact component={Detail}/>
             <Route path="/detail" exact component={Detail}/>
             <Route path="/" exact component={Products}/>

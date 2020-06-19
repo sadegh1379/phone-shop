@@ -55,7 +55,7 @@ function CartItem(props) {
                                 
                         </div>
                         
-                        <div className="col-lg-6 mt-md-4 mt-2     col-md-12 align-items-center d-flex justify-content-center" >
+                        <div className="col-lg-6 mt-md-4 mt-2 d-sm-none d-xs-none  col-md-12 align-items-center d-flex justify-content-center" >
                            <Link to="/detail"
                            onClick={()=>handleDetail(id)}
                            >
