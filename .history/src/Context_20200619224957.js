@@ -285,19 +285,17 @@ const productContext = React.createContext();
                 product.price = product.red_price;
                 product.color_p = 'قرمز';
                 product.color_e = color;
-                product.img = product.red_img;
+                product.img = product.red_img
                 break;
             case 'gold':
                 product.price =  product.gold_price;
                 product.color_p = 'طلایی';
                 product.color_e = color;
-                product.img  = product.gold_img;
                 break;
             case 'black':
                 product.price = product.black_price ;
                 product.color_p = 'مشکی';
                 product.color_e = color;
-                product.img = product.black_img;
                 break;
             default :
                 alert("رنگ مورد نظر موجود نیست");

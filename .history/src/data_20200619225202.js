@@ -233,12 +233,7 @@ export const storeProducts = [
         info : "این روزها برند شیائومی، تبدیل به رقیبی سرسخت برای برند هوآوی میان خریداران و کاربران تلفن همراه شده‌است. اما آیا صرف قیمت پایین این برند چینی، دلیل محبوبیت آن میان کاربران شده‌است؟ دلایل کاربران و کارشناسان برای خرید گوشی‌های این برند چیست"
         ,inCart : false ,
         count : 0 ,
-        
-        img : 'img/blacki.png',
-        gold_img : 'img/goldi.jpg',
-        black_img : 'img/blacki.png',
-        red_img : 'img/redi.jpg',
-        
+        img : 'img/nokia3.jpg',
         total : 0,
         
         price : 5200000,
@@ -266,12 +261,7 @@ export const storeProducts = [
         info : "این روزها برند شیائومی، تبدیل به رقیبی سرسخت برای برند هوآوی میان خریداران و کاربران تلفن همراه شده‌است. اما آیا صرف قیمت پایین این برند چینی، دلیل محبوبیت آن میان کاربران شده‌است؟ دلایل کاربران و کارشناسان برای خرید گوشی‌های این برند چیست"
         ,inCart : false ,
         count : 0 ,
-        
-        img : 'img/blacki.png',
-        gold_img : 'img/goldi.jpg',
-        black_img : 'img/blacki.png',
-        red_img : 'img/redi.jpg',
-        
+        img : 'img/somsung.jpg',
         total : 0,
         
         price : 4500000,
@@ -298,23 +288,18 @@ export const storeProducts = [
 
 export const DetailProduct = [
     {
-        id : 9 ,
-        title : 'ال جی',
+        id : 10 ,
+        title : ' شیامی',
         info : "این روزها برند شیائومی، تبدیل به رقیبی سرسخت برای برند هوآوی میان خریداران و کاربران تلفن همراه شده‌است. اما آیا صرف قیمت پایین این برند چینی، دلیل محبوبیت آن میان کاربران شده‌است؟ دلایل کاربران و کارشناسان برای خرید گوشی‌های این برند چیست"
         ,inCart : false ,
         count : 0 ,
-        
-        img : 'img/blacki.png',
-        gold_img : 'img/goldi.jpg',
-        black_img : 'img/blacki.png',
-        red_img : 'img/redi.jpg',
-        
+        img : 'img/xiaomi2.jpg',
         total : 0,
         
-        price : 4500000,
-        black_price : 4500000 ,
-        red_price : 4600000,
-        gold_price : 4600000,
+        price : 3100000,
+        black_price : 3100000 ,
+        red_price : 3150000,
+        gold_price : 3170000,
         
         company : 'nokia',
         color_p:'مشکی',
@@ -329,7 +314,8 @@ export const DetailProduct = [
         ]
 
 
-    }
+    },
+
 ]
 
 export const Users = [

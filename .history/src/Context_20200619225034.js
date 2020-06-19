@@ -297,7 +297,7 @@ const productContext = React.createContext();
                 product.price = product.black_price ;
                 product.color_p = 'مشکی';
                 product.color_e = color;
-                product.img = product.black_img;
+                product.img = product
                 break;
             default :
                 alert("رنگ مورد نظر موجود نیست");

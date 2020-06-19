@@ -329,7 +329,7 @@ export const DetailProduct = [
         ]
 
 
-    }
+    },
 ]
 
 export const Users = [

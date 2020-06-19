@@ -117,7 +117,7 @@ export default class Detail extends Component {
                                     <Zoom >
                                     <picture>
                                         {/* <source media="(max-width: 800px)" srcSet="/path/to/teAraiPoint.jpg" /> */}
-                                    <img style={{width:'400px' , height : '400px' }} src={img} alt={title}/>
+                                    <img style={{width:'300px' , height : '300px' }} src={img} alt={title}/>
                                     </picture>
                                     </Zoom>
                                     <figure>
